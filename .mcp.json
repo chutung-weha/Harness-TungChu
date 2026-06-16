@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "REPLACE_WITH_ENV_VALUE"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
+    },
+    "database": {
+      "command": "node",
+      "args": ["./mcp/database-server.js"],
+      "env": {
+        "DATABASE_URL": "REPLACE_WITH_ENV_VALUE"
+      }
+    }
+  }
+}

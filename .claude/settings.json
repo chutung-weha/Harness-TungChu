@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash(npm test)",
+      "Bash(npm run build)",
+      "Bash(npm run lint)",
+      "Bash(git status)",
+      "Bash(git diff)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(rm -rf .)",
+      "Bash(git push --force)",
+      "Bash(curl * | sh)",
+      "Bash(wget * | sh)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": ".claude/hooks/session-start.sh",
+    "PreToolUse": ".claude/hooks/pre-tool-use.sh",
+    "PostToolUse": ".claude/hooks/post-tool-use.sh",
+    "Stop": ".claude/hooks/stop.sh",
+    "SubagentStop": ".claude/hooks/subagent-stop.sh"
+  }
+}
