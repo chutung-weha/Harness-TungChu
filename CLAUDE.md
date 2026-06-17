@@ -177,16 +177,19 @@ Input:
 Process:
 - Tự review code
 - Gọi code-reviewer agent nếu cần
-- Tổng hợp thay đổi
+- Tổng hợp thay đổi và kết quả test
+- Cập nhật biên bản bàn giao chi tiết vào `.claude/docs/handover.md`
 - Viết hướng dẫn nghiệm thu
 
 Output:
+- Biên bản bàn giao đã cập nhật trong [.claude/docs/handover.md](file://.claude/docs/handover.md)
 - Summary thay đổi
 - Test evidence
 - Checklist nghiệm thu
 - Hướng dẫn bàn giao
 
 DOD:
+- Biên bản bàn giao đã được điền đầy đủ và cập nhật
 - Người nhận hiểu đã làm gì
 - Có cách kiểm tra
 - Có rủi ro còn lại nếu có
