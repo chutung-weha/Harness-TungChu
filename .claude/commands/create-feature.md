@@ -41,12 +41,14 @@ Khi nhận được yêu cầu phát triển một tính năng mới từ PO/BA/
    - Dùng `e2e-test.md` nếu cần Playwright
 
 6. **Bàn giao**
-   - Tổng hợp thay đổi
+   - Tổng hợp thay đổi và kết quả test
+   - Cập nhật biên bản bàn giao chi tiết vào [handover.md](file://.claude/docs/handover.md)
    - Viết hướng dẫn nghiệm thu
    - Gọi `code-reviewer.md` nếu cần review
 
 ## Output bắt buộc
 
+- Biên bản bàn giao đã cập nhật trong `.claude/docs/handover.md`
 - Summary thay đổi
 - Danh sách file đã thay đổi
 - Kết quả test
@@ -58,4 +60,4 @@ Khi nhận được yêu cầu phát triển một tính năng mới từ PO/BA/
 - [ ] Feature hoạt động đúng acceptance criteria
 - [ ] Có test pass
 - [ ] Không phá flow cũ
-- [ ] Đã có hướng dẫn bàn giao
+- [ ] Đã cập nhật biên bản bàn giao `.claude/docs/handover.md`
