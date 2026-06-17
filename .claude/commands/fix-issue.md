@@ -39,8 +39,12 @@ Khi cần sửa bug hoặc xử lý issue được report.
    - Kiểm tra các flow liên quan không bị ảnh hưởng
    - Chạy regression test nếu có
 
+6. **Bàn giao**
+   - Cập nhật thông tin sửa lỗi và hướng dẫn kiểm tra vào [handover.md](file://.claude/docs/handover.md)
+
 ## Output bắt buộc
 
+- Biên bản bàn giao đã cập nhật trong `.claude/docs/handover.md`
 - Root cause analysis (nguyên nhân gốc)
 - Mô tả fix đã làm
 - Steps kiểm tra lại bug đã hết
@@ -53,3 +57,4 @@ Khi cần sửa bug hoặc xử lý issue được report.
 - [ ] Test xác nhận bug hết
 - [ ] Không có regression mới
 - [ ] Có hướng dẫn kiểm tra lại
+- [ ] Đã cập nhật biên bản bàn giao `.claude/docs/handover.md`
